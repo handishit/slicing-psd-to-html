@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font: 16px 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #55606e;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header,
+.footer {
+    background: #15181f url(../image/bg-texture.jpg) repeat;
+    color: #fff;
+}
+
+.logo {
+    float: left;
+    margin: 19px 17px 0 0;
+}
+
+.slogan {
+    float: left;
+    margin-top: 22px;
+    font: italic 16px "Times New Roman", Times, Georgia, serif;
+    color: rgba(255, 255, 255, .35);
+}
+
+.nav {
+    float: right;
+}
+.nav li {
+    float: left;
+    border-left: 1px solid #2c323d;
+}
+.nav a {
+    display: block;
+    line-height: 62px;
+    padding: 0 24px 0 53px;
+    color: #fff;
+}
+
+.nav a:hover {
+    background-color: #13151a;
+}
+
+.nav a:after {
+    content: '';
+    background: url(../image/nav-icons.png) no-repeat;
+    position: absolute;
+    top: 22px;
+    left: 24px;
+}
+
+.nav .how-it-works a:after {
+    background-position: -1px -2px;
+	width: 19px;
+	height: 18px;
+}
+.nav .sign-up a:after {
+    background-position: -25px -2px;
+	width: 19px;
+	height: 18px;
+}
+.nav .login a:after {
+    background-position: -50px -3px;
+	width: 14px;
+	height: 17px;
+}
+
+.middle {
+    background: #fff;
+}
+
+.hero {
+    background: #333 url(../image/bg-hero.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    height: 465px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+.hero p {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 600;
+    max-width: 715px;
+    margin: 0 auto 51px;
+}
+.hero p strong {
+    font-weight: 700;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 55px;
+    margin: 0 11px;
+}
+.btn-green {
+    background-color: #83c129;
+    box-shadow: 0 4px 0 #518719;
+}
+.btn-blue {
+    background-color: #068fd5;
+    box-shadow: 0 4px 0 #046b9f;
+}
