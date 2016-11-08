@@ -2,4 +2,4 @@
 
 follow this tutorial :
 
-http://code.tutsplus.com/articles/slice-and-dice-that-psd--net-2476
+https://thesiteslinger.com/blog/tutorial-how-to-code-your-psd-into-a-html-css-layout
